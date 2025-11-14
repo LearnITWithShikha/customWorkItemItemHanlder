@@ -12,15 +12,9 @@
     <work-item-handlers>
         <work-item-handler>
             <resolver>mvel</resolver>
-            <identifier>new com.kie.CustomWIH()</identifier>
+            <identifier>new org.jbpm.process.workitem.rest.RESTWorkItemHandler("", "")</identifier>
             <parameters/>
-            <name>CustomWIH</name>
-        </work-item-handler>
-        <work-item-handler>
-            <resolver>mvel</resolver>
-            <identifier>new com.kie.HelloWorldService()</identifier>
-            <parameters/>
-            <name>HelloWorldService</name>
+            <name>Rest</name>
         </work-item-handler>
     </work-item-handlers>
     <environment-entries/>

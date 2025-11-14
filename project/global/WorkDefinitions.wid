@@ -118,17 +118,7 @@
           "Message" : new StringDataType()
         ]
     ],
- [
-    "name" : "CustomWIH",
-    "parameters" : [
-        "emp" : new ObjectDataType()
-    ],
-    "results" : [
-        "emp" : new ObjectDataType(),
-    ],
-    "displayName" : "CustomWIH",
-    "icon" : "defaultservicenodeicon.png"
-  ],
+
     [
         "name" : "Milestone",
         "displayName" : "Milestone",
@@ -138,10 +128,5 @@
         "parameters" : [
             "Condition" : new StringDataType()
         ]
-    ],
-    [
-    "name" : "HelloWorldService",
-    "displayName" : "HelloWorldService",
-    "icon" : "defaultservicenodeicon.png"
-  ]
+    ]
 ]
